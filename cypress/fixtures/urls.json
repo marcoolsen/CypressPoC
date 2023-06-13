@@ -1,0 +1,10 @@
+{
+    "api": {
+        "getBooks": "BookStore/v1/Books",
+        "getBook": "BookStore/v1/Book",
+        "InsertAccountUser": "Account/v1/User",
+        "getSpecificUser": "Account/v1/User/id",
+        "authorizedUser": "Account/v1/Authorized",
+        "deleteUser": "Account/v1/User/id"
+    }
+}
