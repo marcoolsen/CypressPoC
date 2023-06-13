@@ -11,10 +11,15 @@ npm install
 ## Scripts Commands
 
 `npm run format` code formatter 
+
 `npm run cypress:open` open cypress console debbuger 
+
 `npm run cypress:all` execute all cypress tests
+
 `npm run cypress:api` execute only api tests
+
 `npm run cypress:fe` execute only frontend tests
+
 
 ## Dependencies 
 
