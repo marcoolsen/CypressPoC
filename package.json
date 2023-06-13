@@ -7,6 +7,7 @@
         "cypress:api": "cypress run --spec 'cypress/e2e/API/**/*'",
         "cypress:fe": "cypress run --spec 'cypress/e2e/FE/**/*'",
         "cypress:all": "cypress run",
+        "cypress:open": "cypress open",
         "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
     },
     "repository": {
