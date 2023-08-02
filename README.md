@@ -8,6 +8,15 @@ Cypress repository with Typescript for API and Frontend testing
 npm install
 ```
 
+You need to create an `.env` file with the credential user information, the idea is not to have sensitive data declared in the code.
+
+NOTE: To make the respective executions in Github Actions, Github Secrets were created with the respective credentials
+
+```bash 
+TEST_USER="{ ...data }"
+TEST_PASS="{ ...data }"
+```
+
 ## Scripts Commands
 
 `npm run format` code formatter 
@@ -24,7 +33,6 @@ npm install
 ## Dependencies 
 
  - Mochawesome (after run the cypress tests execution you can find the cypress report into the cypress/report folder)
- ![Alt text](image.png)
  - Prettier: code formatter 
  - Github Actions: for continuos integration test executions (on the Actions Tab, you can see the execution)
 
