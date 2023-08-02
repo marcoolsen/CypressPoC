@@ -24,6 +24,7 @@ npm install
 ## Dependencies 
 
  - Mochawesome (after run the cypress tests execution you can find the cypress report into the cypress/report folder)
+ ![Alt text](image.png)
  - Prettier: code formatter 
  - Github Actions: for continuos integration test executions (on the Actions Tab, you can see the execution)
 
