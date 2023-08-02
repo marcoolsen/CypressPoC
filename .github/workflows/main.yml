@@ -31,6 +31,9 @@ jobs:
       - uses: cypress-io/github-action@v4
         with:
           command: npm run cypress:all
+        env:
+          TEST_USER: ${{ secrets.TEST_USER}}
+          TEST_PASS: ${{ secrets.TEST_PASS}}
           
       - name: Upload cypress report
         uses: actions/upload-artifact@v3
