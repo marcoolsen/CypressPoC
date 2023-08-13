@@ -33,6 +33,10 @@ TEST_PASS="{ ...data }"
 ## Dependencies 
 
  - Mochawesome (after run the cypress tests execution you can find the cypress report into the cypress/report folder)
+
+<img width="861" alt="image" src="https://github.com/marcoolsen/CypressPoC/assets/46571669/26f3e86a-aacf-4269-9721-76870f44dd22">
+
+
  - Prettier: code formatter 
  - Github Actions: for continuos integration test executions (on the Actions Tab, you can see the execution)
 
