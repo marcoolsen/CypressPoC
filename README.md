@@ -1,3 +1,5 @@
+[![Cypress Tests](https://github.com/marcoolsen/CypressPoC/actions/workflows/main.yml/badge.svg)](https://github.com/marcoolsen/CypressPoC/actions/workflows/main.yml)
+
 # CypressPoC
 
 Cypress repository with Typescript for API and Frontend testing
